@@ -1,0 +1,3 @@
+describe Dog do
+  
+end
