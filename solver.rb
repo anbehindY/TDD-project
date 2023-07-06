@@ -1,8 +1,8 @@
 class Solver
   def factorial(number)
-    if number < 0
-      raise "Negative number"
-    elsif number == 0
+    if number.negative?
+      raise 'Negative number'
+    elsif number.zero?
       1
     else
       number * factorial(number - 1)
