@@ -23,7 +23,7 @@ describe Solver do
       it 'should return the reversed string' do
         solver = Solver.new
         reversed_string = solver.reverse('hello')
-        expect(reversed_string.to eq('olleh'))
+        expect(reversed_string).to eq('olleh')
       end
     end
   end
